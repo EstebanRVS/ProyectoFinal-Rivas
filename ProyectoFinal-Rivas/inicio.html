@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    
+
+    <title>NIKEGYM</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a NIKE GYM</h1>
+        <nav>
+          <ul>
+            <li><a href="#clases">Clases</a></li> 
+            <li><a href="#calculadora">¡Calcular tu IMC!</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="fotosgym.html">Fotos de nuestras clases!</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2 id="clases">Clases</h2>
+
+        <div id="lista">
+        <ul>
+
+
+        
+          <li class="card">
+            <h3>Maquinas y pesas</h3>
+            <img src="./img/maqypesas.jpg" alt="Maquinas" width="300">
+            <strong><p>$1900</p></strong>
+            <button class="BotonTomar">Tomar Clase</button>
+          </li>
+          
+
+          <br><br>
+
+        
+          <li class="card">
+            <h3>Clases de Hiit</h3>
+            <img src="./img/HIIT.jpeg" alt="Hiit" width="300">
+            <strong><p>$2600</p></strong>
+            <button class="BotonTomar">Tomar clase</button>
+          </li>
+          
+
+          <br><br>
+
+        
+          <li class="card">
+            <h3>Clases de Funcional</h3>
+            <img src="./img/funcional.jpg" alt="Funcional" width="300">
+            <strong><p>$1500</p></strong>
+            <button class="BotonTomar">Tomar clase</button>
+          </li>
+          
+
+          <br><br> 
+
+        
+          <li class="card">
+            <h3>Clases de Strong</h3>
+            <img src="./img/strong.jpg" alt="Strong"  width="300">
+            <strong><p>$2000</p></strong>
+            <button class="BotonTomar">Tomar clase</button>
+          </li>
+         
+
+          <br><br>
+        
+          <li class="card">
+            <h3>Clases de Calistenia</h3>
+            <img src="./img/calistenia.jpg" alt="Calistenia"  width="300">
+            <strong><p>$1500</p></strong>
+            <button class="BotonTomar">Tomar clase</button>
+          </li>
+         
+
+        </ul>
+          </div>
+
+      </main>
+
+        <!-- CALCULO DE IMC -->
+
+        <h1 id="calculadora">Calcula tu indice de masa corporal</h1>
+        <div class="container">
+          <label for="peso">Peso (kg):</label>
+          <input type="number" id="peso" placeholder="Ej: 68">
+          <label for="altura">Altura (m):</label>
+          <input type="number" id="altura" placeholder="Ej: 1.75">
+          <button class="btnCalcular">Calcular IMC</button>
+          <p id="resultado"></p>
+          <div>
+            <p>
+              Clases recomendadas segun tu IMC! 
+              <br><br> <strong> MENOR A 18:</strong> Tienes bajo peso. Te recomendamos cualquiera de nuestras clases acompañada de una buena alimentacion!
+              <br><br> <strong>ENTRE 18 Y 24:</strong>  Tienes el peso ideal. Te recomendamos tomar las clases a tu gusto
+              <br><br> <strong>MAYOR A 25:</strong>  Tienes sobrepeso. Te recomendamos tomar clases de Hiit, Funcional y Strong
+            </p>
+          </div>
+          
+        </div>
+
+        <H1 id="contacto">Contacto</H1>
+        <div id="contac">
+        <p>
+          <strong>Contacta con nuestros nutricionistas! </strong> <br>+54 381832181 <br> Email: nutri@email.com
+        </p>
+        <p>
+          <strong>Contacta con nuestros Profes!</strong> <br>+54 381565465 <br> Email: profes@email.com
+        </p>
+        </div>
+      <footer>
+        <p>Pagina hecha por Esteban Rivas &copy; 2023</p>
+      </footer>
+      <script src="inicio.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="js/SweetAlert.js"></script>
+</body>
+</html>
